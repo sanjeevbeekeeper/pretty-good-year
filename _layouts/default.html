@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <title>Pretty good year</title>
+<link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
 </head>
 <body>
-    <header>
-        <strong>Pretty Good year</strong>
-        <nav>
-            <ul>
-                <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-                <li><a href="{{site.baseurl}}/news.html">News</a></li>
-            </ul>
-        </nav>
-    </header>
+
+<header>
+    <h1>Pretty Good year</h1>
+    <!-- navigation -->
+    {% include nav.html navclass="nav-top" %}
+</header>
+
 {{content}}
+
+<footer>
+    <!-- navigation -->
+    {% include nav.html navclass="nav-bottom" %}
+    <p>2017 pretty good year</p>
+</footer>
+
 </body>
 </html>
