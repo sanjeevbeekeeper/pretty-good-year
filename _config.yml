@@ -1,0 +1,7 @@
+markdown: redcarpet
+# go to your github url and copy the one that comes after io
+# https://sanjeevbeekeeper.github.io/pretty-good-year/
+baseurl: /pretty-good-year/
+# to ignore file
+# for multiple exclusion files/folder use comma ex: ['README.md', 'Other-file']
+exclude: ['README.md']
