@@ -1,0 +1,11 @@
+body {
+    background-color: gainsboro;
+    }
+
+.selected {
+    background-color: gray;
+    color: white;
+    }
+
+ul.nav {list-style: none; padding: 0;}
+ul.nav li {display: inline-block;}
