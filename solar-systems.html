@@ -2,10 +2,10 @@
 layout: news
 ---
 
-<h2>News page</h2>
+<h2>Solar Systems</h2>
 
 <ul>
-    {% for post in site.posts %}
+    {% for post in site.categories.planets %}
     <li>
         <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
         <p>{{post.meta}}</p>

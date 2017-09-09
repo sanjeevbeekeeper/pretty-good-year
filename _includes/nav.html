@@ -1,10 +1,16 @@
 <nav>
     <ul class="nav {{include.navclass}}">
         <li>
-            <a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}selected{% endif %}"> Home </a>
+            <a
+            href="{{site.baseurl}}/index.html"
+            class="{% if page.url == '/' %}selected{% endif %}">
+            Home </a>
         </li>
         <li>
-            <a href="{{site.baseurl}}/news.html" class="{% if page.url == '/news.html' %}selected{% endif %}"> News </a>
+            <a
+            href="{{site.baseurl}}/news.html"
+            class="{% if page.url contains 'solar-systems' or page.url contains 'nature' %}selected{% endif %}">
+            News </a>
         </li>
     </ul>
 </nav>
