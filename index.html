@@ -1,5 +1,10 @@
 ---
 layout: default
+show_footer: false
 ---
 
 <h2>Body page</h2>
+
+{% if page.show_footer %}
+ <footer>I am a footer</footer>
+{% endif %}
